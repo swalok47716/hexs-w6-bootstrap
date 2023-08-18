@@ -1,0 +1,23 @@
+.index {
+  .carousel {
+    img {
+      height: 518px;
+      object-fit: cover;
+    }
+  }
+  .event-genre-icon {
+    width: 41px;
+  }
+  .icon-sparkler {
+    width: 24px;
+    height: 24px;
+  }
+  .chat-gpt {
+    background: url(../images/event/online.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 35%;
+  }
+  .banner-text {
+    letter-spacing: 3.2px;
+  }
+}

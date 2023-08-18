@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <%- include('./layout/link'); -%>
+    <title>index</title>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+    <main class="index">
+
+      <div id="carousel-controls" class="carousel slide container mb-12" data-bs-target="carousel-controls">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/images/event/01.jpg" alt="" class="img-fluid d-block w-100">
+          </div>
+          <div class="carousel-item active">
+            <img src="../assets/images/event/02.jpg" alt="" class="img-fluid d-block w-100">
+          </div>
+          <div class="carousel-item active">
+            <img src="../assets/images/event/13.jpg" alt="" class="img-fluid d-block w-100">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-controls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-controls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="event-genre container mb-12">
+        <div class="row g-2 gx-md-6">
+          <div class="col-4 col-md-2">
+            <a href="#" class="d-flex flex-column align-items-center justify-content-center py-5 py-md-9 border border-2 border-dark h-100">
+              <img src="../assets/images/cate01.svg" alt="" class="event-genre-icon img-fluid d-block mb-2 mb-md-3">
+              <span class="clearfix d-block fs-9 fs-md-5 fw-bold text-center text-dark text-nowrap">演出</span>
+            </a>
+          </div>
+          <div class="col-4 col-md-2">
+            <a href="#" class="d-flex flex-column align-items-center justify-content-center py-5 py-md-9 border border-2 border-dark h-100">
+              <img src="../assets/images/cate02.svg" alt="" class="event-genre-icon img-fluid d-block mb-2 mb-md-3">
+              <span class="clearfix d-block fs-9 fs-md-5 fw-bold text-center text-dark text-nowrap">聯誼</span>
+            </a>
+          </div>
+          <div class="col-4 col-md-2">
+            <a href="#" class="d-flex flex-column align-items-center justify-content-center py-5 py-md-9 border border-2 border-dark h-100">
+              <img src="../assets/images/cate03.svg" alt="" class="event-genre-icon img-fluid d-block mb-2 mb-md-3">
+              <span class="clearfix d-block fs-9 fs-md-5 fw-bold text-center text-dark text-nowrap">展覽</span>
+            </a>
+          </div>
+          <div class="col-4 col-md-2">
+            <a href="#" class="d-flex flex-column align-items-center justify-content-center py-5 py-md-9 border border-2 border-dark h-100">
+              <img src="../assets/images/cate04.svg" alt="" class="event-genre-icon img-fluid d-block mb-2 mb-md-3">
+              <span class="clearfix d-block fs-9 fs-md-5 fw-bold text-center text-dark text-nowrap">美食</span>
+            </a>
+          </div>
+          <div class="col-4 col-md-2">
+            <a href="#" class="d-flex flex-column align-items-center justify-content-center py-5 py-md-9 border border-2 border-dark h-100">
+              <img src="../assets/images/cate05.svg" alt="" class="event-genre-icon img-fluid d-block mb-2 mb-md-3">
+              <span class="clearfix d-block fs-9 fs-md-5 fw-bold text-center text-dark text-nowrap">戶外</span>
+            </a>
+          </div>
+          <div class="col-4 col-md-2">
+            <a href="#" class="d-flex align-items-center justify-content-center py-5 py-md-9 border border-2 border-dark h-100 bg-dark">
+              <span class="clearfix d-block fs-5 fs-md-3 fw-bold lh-sm text-center text-warning text-nowrap">探索<br>更多</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mb-8">
+        <div
+          class="px-3 px-md-8 py-4 py-md-6 d-flex flex-wrap justify-content-between align-items-center border border-3 border-dark">
+          <h2 class="fs-5 fs-md-1 fw-normal text-center">RECENT</h2>
+          <h2 class="fs-9 fs-md-4 fw-bold text-center">近期活動</h2>
+        </div>
+      </div>
+
+      <div class="container mb-14">
+        <div class="row gy-12">
+          <div class="col-md-4">
+            <div class="card h-100 bg-transparent border-0">
+              <div class="card-body p-0">
+                <h3 class="card-title fs-4 fs-md-3 fw-normal border-bottom border-3 border-dark pb-3 mb-3">19 MAY 2023
+                </h3>
+                <img src="../assets/images/event/01.jpg" alt="" class="img-fluid d-block mb-3">
+                <h2 class="fs-6 fs-md-8 fw-bold mb-3">邪典電影派對——房間</h2>
+                <p class="font-noto-sans fw-normal lh-base mb-4">你有聽說過「大災難家」裡面的主角 Tommy Wiseau
+                  製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...</p>
+                <div class="d-flex align-items-center border border-2 border-start-0 border-end-0 border-dark py-3">
+                  <img src="../assets/images/sparkler.png" alt="" class="icon-sparkler d-inline-block">
+                  <span class="fw-bold">社群活動</span>
+                  <a href="#" class="ms-auto text-dark">
+                    <span class="font-noto-sans fw-bold">開賣中</span>
+                    <img src="../assets/images/rounded-double-right 1.svg" alt="" class="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mb-8">
+        <div
+          class="px-3 px-md-8 py-4 py-md-6 d-flex flex-wrap justify-content-between align-items-center border border-3 border-dark">
+          <h2 class="fs-5 fs-md-1 fw-normal text-center">ONLINE</h2>
+          <h2 class="fs-9 fs-md-4 fw-bold text-center">線上活動</h2>
+        </div>
+      </div>
+
+      <div class="container mb-8 mb-md-15">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="chat-gpt h-100 w-100"></div>
+          </div>
+          <div class="col">
+            <h3 class="md-2 mb-md-4 fs-md-4 fw-bold">切特居批踢</h3>
+            <div class="d-flex gap-2 mb-md-8">
+              <span
+                class="d-block fs-md-9 fw-bold text-center px-md-6 py-md-1 border border-start-4 border-dark">競賽</span>
+              <span
+                class="d-block fs-md-9 fw-bold text-center px-md-6 py-md-1 border border-start-4 border-dark">科技</span>
+              <span
+                class="d-block fs-md-9 fw-bold text-center px-md-6 py-md-1 border border-start-4 border-dark">有趣</span>
+            </div>
+            <p class="font-noto-sans fw-normal mb-md-8">最近網路上很流行的AI程式
+              ChatGPT，可以用來聊天或是查詢、整理各種資料，不同的應用方式如雨後春筍般冒出來。<br>這個活動讓大家把自己最有特色的使用方法提出來讓大家參考，也會投票出最有趣的用法。<br>該讓其他人知道自己使用
+              ChatGPT 的姿勢才是最特別的那個了！</p>
+            <a href="#" class="py-4 py-md-2 bg-dark d-flex justify-content-center align-items-center link-light">
+              <span class="d-block font-noto-sans fs-md-7 fw-bold">查看活動詳情</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path
+                  d="M15.768 9.44006L11.704 5.37605C11.394 5.06605 10.892 5.06605 10.582 5.37605L10.232 5.72605C9.92201 6.03605 9.92201 6.53805 10.232 6.84805L12.826 9.44206C12.982 9.59806 13.058 9.80006 13.058 10.0021C13.058 10.2041 12.98 10.4081 12.826 10.5621L10.232 13.1561C9.92201 13.4661 9.92201 13.9681 10.232 14.2781L10.582 14.6281C10.892 14.9341 11.394 14.9341 11.704 14.6241L15.768 10.5601C15.924 10.4041 16 10.2021 16 10.0001C16 9.79806 15.922 9.59406 15.768 9.44006ZM9.76801 9.44006L5.70401 5.37605C5.39401 5.06605 4.89201 5.06605 4.58201 5.37605L4.23201 5.72605C3.92201 6.03605 3.92201 6.53805 4.23201 6.84805L6.82601 9.44206C6.98201 9.59806 7.05801 9.80006 7.05801 10.0021C7.05801 10.2041 6.98001 10.4081 6.82601 10.5621L4.23201 13.1561C3.92201 13.4661 3.92201 13.9681 4.23201 14.2781L4.58201 14.6281C4.89201 14.9341 5.39401 14.9341 5.70401 14.6241L9.76801 10.5601C9.92401 10.4041 10 10.2021 10 10.0001C10 9.79806 9.92201 9.59406 9.76801 9.44006Z"
+                  fill="white" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-dark mb-6 mb-md-9">
+        <div class="py-4 py-md-6">
+          <h3
+            class="banner-text font-noto-serif text-warning fw-bold fs-9 fs-md-4 text-nowrap overflow-hidden text-center">
+            活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS</h3>
+        </div>
+      </div>
+      <div class="bg-dark mb-8 mb-md-15">
+        <div class="py-4 py-md-6">
+          <h3
+            class="banner-text font-noto-serif text-warning fw-bold fs-9 fs-md-4 text-nowrap overflow-hidden text-center">
+            活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS</h3>
+        </div>
+      </div>
+
+      <div class="container mb-12 mb-md-15">
+        <div class="row gx-0 gy-6">
+          <div class="col-md-6">
+            <div class="border border-2 border-end-2 border-end-md-1 border-dark h-100 font-noto-sans d-flex- flex-column">
+              <div class="mx-3 mx-md-8 my-4">
+                <h3 class="font-noto-serif fw-bold fs-6 fs-md-4">#FOLLOW US</h3>
+              </div>
+              <div class="border border-1 border-dark"></div>
+              <div class="mx-3 mx-md-8 my-4">
+                <p class="fs-9 mb-4 mb-md-8">想第一時間獲得新奇有趣的活動資訊？<br>追蹤我們的社群吧！<br>也歡迎你聯繫我們，提供好玩有趣的活動企劃。</p>
+                <div class="d-flex align-items-center gap-4 mb-4">
+                  <span class="p-2 bg-dark">
+                    <i class="icofont-ui-email d-block text-light"></i>
+                  </span>
+                  <span>7tao.event@gmail.com</span>
+                </div>
+                <div class="d-flex align-items-center gap-4 mb-4">
+                  <span class="p-2 bg-dark">
+                    <i class="icofont-phone d-block text-light"></i>
+                  </span>
+                  <span>09123123123</span>
+                </div>
+                <div class="d-flex align-items-center gap-4">
+                  <span class="p-2 bg-dark">
+                    <i class="icofont-facebook d-block text-light"></i>
+                  </span>
+                  <span>7TAO七逃</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="border border-2 border-start-2 border-start-md-1 border-dark h-100 d-flex flex-column">
+              <div class="mx-3 mx-md-8 my-4">
+                <h3 class="font-noto-serif fw-bold fs-6 fs-6 fs-md-4">#SUBSCRIBE US</h3>
+              </div>
+              <div class="border border-1 border-dark"></div>
+              <div class="mx-3 mx-md-8 mt-4 mb-4 mb-md-auto font-noto-sans">
+                <p class="fs-9 mb-4 mb-md-8">訂閱電子報送折價券！<br>定期精選文章資訊及最新優惠資訊，<br>還不通通給我訂閱起來？</p>
+                <input type="email" placeholder="輸入Email" class="w-100 bg-transparent border border-2 border-dark">
+              </div>
+              <a href="#" class="py-4 py-md-2 bg-dark d-flex justify-content-center align-items-center link-light">
+                  <span class="d-block font-noto-sans fs-md-7 fw-bold">確認訂閱</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M15.768 9.44006L11.704 5.37605C11.394 5.06605 10.892 5.06605 10.582 5.37605L10.232 5.72605C9.92201 6.03605 9.92201 6.53805 10.232 6.84805L12.826 9.44206C12.982 9.59806 13.058 9.80006 13.058 10.0021C13.058 10.2041 12.98 10.4081 12.826 10.5621L10.232 13.1561C9.92201 13.4661 9.92201 13.9681 10.232 14.2781L10.582 14.6281C10.892 14.9341 11.394 14.9341 11.704 14.6241L15.768 10.5601C15.924 10.4041 16 10.2021 16 10.0001C16 9.79806 15.922 9.59406 15.768 9.44006ZM9.76801 9.44006L5.70401 5.37605C5.39401 5.06605 4.89201 5.06605 4.58201 5.37605L4.23201 5.72605C3.92201 6.03605 3.92201 6.53805 4.23201 6.84805L6.82601 9.44206C6.98201 9.59806 7.05801 9.80006 7.05801 10.0021C7.05801 10.2041 6.98001 10.4081 6.82601 10.5621L4.23201 13.1561C3.92201 13.4661 3.92201 13.9681 4.23201 14.2781L4.58201 14.6281C4.89201 14.9341 5.39401 14.9341 5.70401 14.6241L9.76801 10.5601C9.92401 10.4041 10 10.2021 10 10.0001C10 9.79806 9.92201 9.59406 9.76801 9.44006Z"
+                      fill="white" />
+                  </svg>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-12 py-md-15 border border-3 border-start-0 border-end-0 border-dark">
+        <h2 class="fw-bold fs-8 fs-md-4 text-center">此刻打盹，你將做夢；此刻學習，你將圓夢</h2>
+        <h3 class="fw-bold fs-10 fs-md-8 text-center">——我也不知道誰說的</h3>
+      </div>
+      <!-- <div class="container mb-4">
+        <div class="row">
+          <div class="col py-8 border border-start-2 border-start-md-5 border-dark"></div>
+        </div>
+      </div> -->
+
+    </main>
+    <%- include('./layout/footer'); -%>
+      <script type="module" src="../main.js"></script>
+</body>
+
+</html>
