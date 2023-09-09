@@ -691,6 +691,29 @@ $utilities: map-merge(
       property: letter-spacing,
       values: $spacers-tiny
     ),
+    "transform-rotate": (
+      responsive:true,
+      property: transform,
+      class: transform-rotate,
+      values: (
+        2: rotate(2deg),
+        n2: rotate(-2deg),
+        n3: rotate(-3deg),
+        n4: rotate(-4deg)
+      )
+    ),
+    "z-index": (
+      responsive: true,
+      property: z-index,
+      class: z,
+      values: (
+        n1: -1,
+        1: 1,
+        2: 2,
+        3: 3,
+        auto: auto
+      )
+    )
   ),
   $utilities
 );
