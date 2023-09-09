@@ -19,10 +19,6 @@
     height: 255px;
     object-fit: cover;
   }
-  .icon-sparkler {
-    width: 24px;
-    height: 24px;
-  }
   .chat-gpt {
     height: 250px;
     width: 100%;
@@ -37,4 +33,12 @@
   .banner-text {
     letter-spacing: 3.2px;
   }
+}
+.icon-sparkler-sm {
+  width: 24px;
+  height: 24px;
+}
+.icon-sparkler {
+  width: 32px;
+  height: 32px;
 }
