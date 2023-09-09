@@ -6,7 +6,10 @@
     }
   }
   .event-genre-icon {
-    width: 41px;
+    width: 40px;
+    @media(min-width: 768px) {
+      width: 80px;
+    }
   }
   .icon-sparkler {
     width: 24px;
