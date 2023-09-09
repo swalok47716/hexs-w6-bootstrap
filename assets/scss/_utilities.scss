@@ -142,12 +142,6 @@ $utilities: map-merge(
       ),
       values: $utilities-border-colors
     ),
-    // "border-width": (
-    //   css-var: true,
-    //   css-variable-name: border-width,
-    //   class: border,
-    //   values: $border-widths
-    // ),
     "border-width": (
       property: border-width,
       class: border,
@@ -199,6 +193,7 @@ $utilities: map-merge(
         50: 50%,
         75: 75%,
         100: 100%,
+        150: 150%,
         auto: auto
       )
     ),
