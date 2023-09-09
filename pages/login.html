@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%- include('./layout/link'); -%>
+    <title>7TAO活動訂票網 - 登入</title>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+    <main>
+      <div class="container">
+        <div class="pt-15 pb-20">
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="d-flex flex-column align-items-center">
+                <img src="../assets/images/sparkler.png" alt="" class="icon-sparkler d-inline-block mb-4">
+                <h1 class="fs-5 fw-bold ls-tiny-3 mb-4">會員登入</h1>
+                <div class="w-100 mb-4">
+                  <label for="inputAccount" class="form-label font-sans-serif">帳號</label>
+                  <input type="email" id="inputAccount" class="form-control border-2 border-dark rounded-0"
+                    placeholder="請輸入帳號">
+                </div>
+                <div class="w-100 mb-8">
+                  <label for="password" class="form-label font-sans-serif">密碼</label>
+                  <input type="email" id="inputPassword" class="form-control border-2 border-dark rounded-0"
+                    placeholder="請輸入密碼">
+                </div>
+                <button type="submit" class="btn btn-dark py-2 w-100">
+                  <p class="d-flex align-items-center font-sans-serif fs-7 fw-bold justify-content-center">
+                    登入
+                    <img src="../assets/images/rounded-double-right 1-white.svg" alt="" class="">
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <%- include('./layout/footer'); -%>
+      <script type="module" src="../main.js"></script>
+</body>
+
+</html>

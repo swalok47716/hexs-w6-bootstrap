@@ -390,6 +390,15 @@ $spacers: (
   14: $spacer * 3.5,
   15: $spacer * 3.75,
   16: $spacer * 4,
+  17: $spacer * 4.25,
+  18: $spacer * 4.5,
+  19: $spacer * 4.75,
+  20: $spacer * 5,
+  21: $spacer * 6,
+  22: $spacer * 7,
+  23: $spacer * 8,
+  24: $spacer * 9,
+  25: $spacer * 10,
 ) !default;
 $spacer-tiny: calc($spacer / 10);
 $spacers-tiny: (
