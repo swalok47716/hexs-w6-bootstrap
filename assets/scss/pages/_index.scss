@@ -1,8 +1,11 @@
 .index {
   .carousel {
     img {
-      height: 518px;
+      height: 351px;
       object-fit: cover;
+      @media(min-width: 768px) {
+        height: 518px;
+      }
     }
   }
   .event-genre-icon {
