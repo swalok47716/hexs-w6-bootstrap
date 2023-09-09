@@ -302,7 +302,7 @@ $primary:       $blue !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
-$warning:       $yellow !default;
+$warning:       #FBFF22; //$yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
@@ -391,6 +391,15 @@ $spacers: (
   15: $spacer * 3.75,
   16: $spacer * 4,
 ) !default;
+$spacer-tiny: calc($spacer / 10);
+$spacers-tiny: (
+  0: 0,
+  1: $spacer-tiny * 1,
+  2: $spacer-tiny * 2,
+  3: $spacer-tiny * 3,
+  4: $spacer-tiny * 4,
+  5: $spacer-tiny * 5,
+);
 // scss-docs-end spacer-variables-maps
 
 // Position

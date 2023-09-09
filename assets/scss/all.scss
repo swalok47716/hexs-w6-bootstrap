@@ -1,5 +1,5 @@
 @import "../../node_modules/bootstrap/scss/functions";
-@import "./utils/variables";
+@import "./variables";
 
 
 @import "./layout/header";
@@ -14,7 +14,7 @@
 // Configuration
 @import "../../node_modules/bootstrap/scss/maps";
 @import "../../node_modules/bootstrap/scss/mixins";
-@import "./utils/utilities";
+@import "./utilities";
 
 // Layout & components
 @import "./root";
@@ -26,9 +26,9 @@
 @import "../../node_modules/bootstrap/scss/tables";
 @import "../../node_modules/bootstrap/scss/forms";
 @import "../../node_modules/bootstrap/scss/buttons";
-// @import "../../node_modules/bootstrap/scss/transitions";
+@import "../../node_modules/bootstrap/scss/transitions";
 // @import "../../node_modules/bootstrap/scss/dropdown";
-// @import "../../node_modules/bootstrap/scss/button-group";
+@import "../../node_modules/bootstrap/scss/button-group";
 @import "../../node_modules/bootstrap/scss/nav";
 @import "../../node_modules/bootstrap/scss/navbar";
 // @import "../../node_modules/bootstrap/scss/card";

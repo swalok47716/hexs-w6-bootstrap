@@ -64,6 +64,7 @@ $utilities: map-merge(
     // scss-docs-end utils-shadow
     // scss-docs-start utils-position
     "position": (
+      responsive: true,
       property: position,
       values: static relative absolute fixed sticky
     ),
@@ -671,6 +672,7 @@ $utilities: map-merge(
         invisible: hidden,
       )
     ),
+    // scss-docs-end utils-visibility
     "object-fit": (
       responsive: true,
       property: object-fit,
@@ -681,8 +683,19 @@ $utilities: map-merge(
         scale: scale-down,
         none: none,
       )
-    )
-    // scss-docs-end utils-visibility
+    ),
+    "letter-spacing": (
+      responsive: true,
+      class: ls,
+      property: letter-spacing,
+      values: $spacers
+    ),
+    "letter-spacing-tiny": (
+      responsive: true,
+      class: ls-tiny,
+      property: letter-spacing,
+      values: $spacers-tiny
+    ),
   ),
   $utilities
 );
