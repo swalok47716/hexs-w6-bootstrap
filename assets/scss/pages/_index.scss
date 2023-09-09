@@ -16,9 +16,15 @@
     height: 24px;
   }
   .chat-gpt {
+    height: 250px;
+    width: 100%;
     background: url(../images/event/online.jpg) no-repeat;
     background-size: cover;
-    background-position: 50% 35%;
+    background-position: 50% 30%;
+    @media(min-width: 768px) {
+      height: 100%;
+      background-position: 50% 35%;
+    }
   }
   .banner-text {
     letter-spacing: 3.2px;
